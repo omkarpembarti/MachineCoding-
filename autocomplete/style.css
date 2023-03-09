@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.suggestion-box-hidden {
+  display: none;
+}
+
+.suggestion-box-visible {
+  display: block;
+  border: 2px solid black;
+  max-height: 100px;
+  overflow-y: auto;
+}
